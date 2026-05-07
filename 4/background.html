@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no,address=no,email=no">
+    <title>背景画像の高解像度対応</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            padding: 30px;
+            font-family: sans-serif;
+        }
+        h1 {
+            font-size: 1.6em;
+        }
+        h1:not(:first-child) {
+            margin-top: 50px;
+        }
+        .arrow {
+            width: 150px;
+            height: 150px;
+            background-color: rgba(0, 0, 0, .04);
+        }
+        span {
+            display: block;
+            padding-top: 0.25em;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>等倍</h1>
+    <div class="arrow x1"></div>
+    <span>150px x 150px</span>
+
+    <h1>2倍</h1>
+    <div class="arrow x2"></div>
+    <span>150px x 150px</span>
+
+    <h1>SVG</h1>
+    <div class="arrow svg"></div>
+    <span>150px x 150px</span>
+
+</body>
+</html>
