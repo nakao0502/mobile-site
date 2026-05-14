@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,15 +10,21 @@
             margin: 0;
             padding: 0;
         }
+
         img {
             width: 100%;
             height: auto;
         }
     </style>
 </head>
+
 <body>
-    
+    <picture>
+        <source media="(min-width: 768px)" srcset="large.jpg">
+        <img src="small.jpg" alt="">
+    </picture>
 
 
 </body>
+
 </html>
